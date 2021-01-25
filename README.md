@@ -20,17 +20,18 @@ descrição de cada tarefa e um link para onde você poderá baixar os dados.
 a) O corpus UTL é um corpus com críticas de filmes e apps coletadas
 automaticamente de sites. As classes são: positiva ou negativa. Assim o usuário
 pode ter gostado ou não gostado do produto. Referência:
-[https://github.com/RogerFig/UTLCorpus](https://github.com/RogerFig/UTLCorpus).
+https://github.com/RogerFig/UTLCorpus.
 b) O corpus UOL AES-PT é um corpus de redações no estilo do ENEM. Cada
 redação possui um tópico e um conjunto de redações relacionadas. Nesse
 corpus, existem vários tópicos e suas respectivas redações. O objetivo é
 predizer a nota final de cada redação de acordo com o grupo de notas 0, 200,
 400, 600, 800 e 1000. Para mais informações e download dos dados, acesse o
-link: ​[https://github.com/evelinamorim/aes-pt](https://github.com/RogerFig/UTLCorpus)​.
+link:
+https://github.com/evelinamorim/aes-pt.
 c) O corpus TweetSentBr é um corpus em português de tweets. Cada tweet está
 rotulado com uma das classes: positivo, negativo e neutro. Para mais
 informações e download do corpus, acesse o link:
-[https://bitbucket.org/HBrum/tweetsentbr/src/master/](https://bitbucket.org/HBrum/tweetsentbr/src/master/)​.
+https://bitbucket.org/HBrum/tweetsentbr/src/master.
 ```
 ## 2. Representação
 
@@ -95,7 +96,7 @@ AES-PT pede-se que se use o erro médio apenas.
 
 ## 6. Estrutura do Notebook
 
-### O seu notebook deve ser dividido por seções que possuam uma célula do tipo ​ Markdown ​.
+### O seu notebook deve ser dividido por seções que possuam uma célula do tipo ​ Markdown.
 
 Nesta célula deve ter o título da seção antecedida por um marcador do tipo #. O título de cada
 seção deverá ser como a lista abaixo. Além do título, é possível que a seção demande a
