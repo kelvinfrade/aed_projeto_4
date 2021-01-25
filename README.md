@@ -40,25 +40,23 @@ usar cada uma dessas representações e compará-las. A seguir temos a listagem 
 representações que devem ser usadas para representar seu texto.
 **a) Representação TF-IDF.** Você pode usar tanto o gensim quanto o scikit para montar
 esta representação, mas lembre-se que é importante fazer o pré-processamento dos
-textos.
-
-
+textos.<br />
 b) **Representação com o word2vec.** O modelo poderá ser o apresentado na aula 03 ou
 algum outro modelo pré-treinado como os existentes no repositório
 [http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc](http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc). Neste
 caso, cada documento deverá ser representado pelo vetor que resultar da média dos
 vetores de todas as palavras que o compõem. Em outras palavras, se D é composto
 pelas palavras w1, w2, ..., wn, e seus vetores embeddings são v1, v2, ..., vn, então a
-representação do documento de D será v = (v1 + v2 + ... + vn) / n.
+representação do documento de D será v = (v1 + v2 + ... + vn) / n.<br />
 **c) Extração de features do texto.** Você deve pensar em ao menos 10 features para
 extrair do documento e que o possam representar. Aqui vão algumas sugestões:
 número de palavras, número de verbos, número de conjunções, número de palavras
 negativas, número de palavras fora do vocabulário, quantidades de entidades do tipo
-PESSOA, quantidade de entidades do tipo LOCAL, etc.
+PESSOA, quantidade de entidades do tipo LOCAL, etc.<br />
 Lembrando que você deve dividir seu conjunto em treino e teste. No TF-IDF, você só pode
 aplicar o método ​ _fit_ no conjunto de treino. Uma sugestão é dividir 80% do conjunto de dados
 para treino e 20% para teste. Essa divisão é aleatória, mas você pode usar o método
-train_test_split para essa divisão. O exemplo a seguir mostra como usar esse método:
+train_test_split para essa divisão. O exemplo a seguir mostra como usar esse método:<br />
 **from** ​ ​ **sklearn.model_selection** ​ ​ **import** ​ train_test_split
 ​X_train, X_test, y_train, y_test ​= ​train_test_split(
 **...** ​ X, y, test_size​=​0.20​, random_state​=​ 42 ​)
@@ -76,7 +74,7 @@ utilizar a biblioteca seaborn. Para uma galeria dos gráficos que o seaborn é c
 acesse o link ​https://seaborn.pydata.org/examples/index.html. Apenas acrescentando em seu
 código ​ **import** ​ **seaborn** ​ **as** ​ **sns** ​; sns​.​set() , ​também é possível deixar o gráfico com cores
 mais bonitas. Todas essas bibliotecas precisam do matplotlib, que já está importado no
-exemplo da aula.
+exemplo da aula.<br />
 Aqui você deve fazer a visualização apenas do seu conjunto de treino.
 
 
