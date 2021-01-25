@@ -12,7 +12,7 @@ Os produtos finais deste projeto será um Notebook Python. As seções seguintes
 como você deve proceder para gerar o código e a última seção deve especificar a estrutura que
 seu notebook deve seguir.
 
-## 1.Dados
+## 1. Dados
 
 ```
 Você poderá escolher três tarefas para resolver no projeto. A seguir existe a breve
