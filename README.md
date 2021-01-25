@@ -1,6 +1,6 @@
 # Projeto #4 - Resolvendo um problema de classificação de textos
 
-## Prazo - **21/12/2020**
+## Prazo - **02/02/2021**
 
 ## Introdução 
 
