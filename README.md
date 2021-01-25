@@ -20,17 +20,17 @@ descrição de cada tarefa e um link para onde você poderá baixar os dados.
 a) O corpus UTL é um corpus com críticas de filmes e apps coletadas
 automaticamente de sites. As classes são: positiva ou negativa. Assim o usuário
 pode ter gostado ou não gostado do produto. Referência:
-https://github.com/RogerFig/UTLCorpus
+[https://github.com/RogerFig/UTLCorpus](https://github.com/RogerFig/UTLCorpus).
 b) O corpus UOL AES-PT é um corpus de redações no estilo do ENEM. Cada
 redação possui um tópico e um conjunto de redações relacionadas. Nesse
 corpus, existem vários tópicos e suas respectivas redações. O objetivo é
 predizer a nota final de cada redação de acordo com o grupo de notas 0, 200,
 400, 600, 800 e 1000. Para mais informações e download dos dados, acesse o
-link: ​https://github.com/evelinamorim/aes-pt​.
+link: ​[https://github.com/evelinamorim/aes-pt](https://github.com/RogerFig/UTLCorpus)​.
 c) O corpus TweetSentBr é um corpus em português de tweets. Cada tweet está
 rotulado com uma das classes: positivo, negativo e neutro. Para mais
-informações e download do corpus, acesse o link
-https://bitbucket.org/HBrum/tweetsentbr/src/master/​.
+informações e download do corpus, acesse o link:
+[https://bitbucket.org/HBrum/tweetsentbr/src/master/](https://bitbucket.org/HBrum/tweetsentbr/src/master/)​.
 ```
 ## 2. Representação
 
@@ -102,24 +102,22 @@ seção deverá ser como a lista abaixo. Além do título, é possível que a se
 descrição de resultados ou outro tipo de texto. Nestes casos, coloque o texto junto à célula do
 título. Se houver código solicitado para a seção, então as células restantes devem ser de
 código solicitado.
-O relatório deve ser organizado nas seguintes seções:
-1) **Tarefa e Dados:** Descreva a tarefa escolhida e os dados. Escreva código que leia os
+O relatório deve ser organizado nas seguintes seções:<br />
+**1) Tarefa e Dados:** Descreva a tarefa escolhida e os dados. Escreva código que leia os
 dados e calcule e imprima quantas instâncias os dados têm. Também, seu código deve
 calcular a média de tokens por instância, isto é, quantos tokens, na média cada
-documento do seu conjunto de dados possui. Imprima esse único número.
+documento do seu conjunto de dados possui. Imprima esse único número.<br />
 **2) Visualização dos dados:** Coloque nesta seção os gráficos do PCA e do t-SNE, para
 cada representação. Responda também às seguintes perguntas: a) Existe algum
 padrão com relação às classes? b) Caso exista algum padrão, você pode concluir
 alguma coisa? c) Caso não exista, você consegue dizer se isso tem a ver com alguma
-representação ou classe?
-**3) Classificadores :** Descreva sucintamente os dois classificadores escolhidos. Você usou
-algum parâmetro que não seja padrão? Se sim, mencione nesta seção.
+representação ou classe?<br />
+**3) Classificadores:** Descreva sucintamente os dois classificadores escolhidos. Você usou
+algum parâmetro que não seja padrão? Se sim, mencione nesta seção.<br />
 **4) Resultados:** ​Escreva código que execute a validação cruzada em 5-folds para os dois
 classificadores escolhidos. Também responda às seguintes perguntas: Os ​ _embeddings_
-
-
 realmente mostraram um resultado melhor que o TF-IDF? Se não, qual foi a
-representação que teve o melhor desempenho? A diferença foi muito grande?
+representação que teve o melhor desempenho? A diferença foi muito grande?<br />
 **5) Conclusão:** Por fim fale aqui o que você conclui das visualizações e dos resultados.
 Tente explicar em detalhes por que um resultado, na sua opinião, foi melhor do que
 outro. Esta explicação pode incluir hipóteses para resultados melhores ou resultados
